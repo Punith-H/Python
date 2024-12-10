@@ -1,0 +1,3 @@
+celcuis =float(input("Enter temptature in fahrenhiet"))
+fahrenhiet = (celcuis *9/5)+32
+print("Temparature in fahrenhiet:", fahrenhiet)
