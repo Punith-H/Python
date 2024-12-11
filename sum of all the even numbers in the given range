@@ -1,0 +1,7 @@
+start= int(input("enter the number: "))
+end= int(input("enter the number: "))
+even=0
+for i in range(start,end+1):
+  if i % 2 == 0:
+    even += i
+    print("The even number  is: ", even)
