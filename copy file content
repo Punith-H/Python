@@ -1,0 +1,9 @@
+
+source_file = "/content/data.txt"
+destination_file = 'destination.txt'
+
+with open(source_file, 'r') as all, open(destination_file, 'w') as destination_file:
+   
+    destination_file.write(all.read())
+
+print(f"Content from '{source_file}' has been copied to '{destination_file}'.")
